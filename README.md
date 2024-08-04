@@ -20,12 +20,12 @@ For example, we suggest to install the dependencies in a conda environment.
 conda create -n scMultiNet
 ```
 and then you can use pip to install the following dependencies within the scMultiNet environment.
-python 3.8.10
-h5py 3.9.0
-torch 1.9.0+cu111
-anndata 0.9.2
-scanpy 1.9.3
-scikit-learn 0.22.2
+- python 3.8.10
+- h5py 3.9.0
+- torch 1.9.0+cu111
+- anndata 0.9.2
+- scanpy 1.9.3
+- scikit-learn 0.22.2
 ## <a name="Usage"></a>Usage 
 ## <a name="Output"></a>Output  
 ## <a name="Arguments"></a>Arguments
