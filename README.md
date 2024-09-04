@@ -4,8 +4,6 @@ Multi-task deep neural network for multi-modality single-cell sequencing data an
 - [Network diagram](#diagram)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Output](#Output)
-- [Arguments](#Arguments)
 - [Citation](#Citation)
 - [Contact](#contact)
 
@@ -16,8 +14,10 @@ Multi-task deep neural network for multi-modality single-cell sequencing data an
 scMultiNet requires Python3.8.x and Pytorch.  
 We have tested the GPU version on the NVIDIA RTX 2080 Ti platform with CUDA version 11.1.  
 For example, we suggest to install the dependencies in a conda environment.  
+
 ```
 conda create -n scMultiNet
+conda activate scMultiNet
 ```
 and then you can use pip to install the following dependencies within the scMultiNet environment.
 - python 3.8.10
@@ -27,7 +27,14 @@ and then you can use pip to install the following dependencies within the scMult
 - scanpy 1.9.3
 - scikit-learn 0.22.2
 ## <a name="Usage"></a>Usage 
-## <a name="Output"></a>Output  
-## <a name="Arguments"></a>Arguments
+
+1. Prepare the input data in h5 format. (See readme in 'data' folder)
+
+2. Run scMultiNet using the tutorial document or run scMultiNet according to the following run script：
+
+   ```
+   python train.py --dataset=BMNC
+   ```
+
 ## <a name="Citation"></a>Citation
 ## <a name="contact"></a>Contact
