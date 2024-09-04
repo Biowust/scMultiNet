@@ -39,3 +39,4 @@ Alternatively, you can run scMultiNet directly using the following command in yo
 
 ## <a name="Citation"></a>Citation
 ## <a name="contact"></a>Contact
+Junlin Xu xjl@hnu.edu.cn
