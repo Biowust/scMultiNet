@@ -1,5 +1,5 @@
 # scMultiNet
-Multi-task deep neural network for multi-modality single-cell sequencing data analysis
+A deep adversarial network model for multi-task analysis of single-cell omics data
 ## Table of contents
 - [Network diagram](#diagram)
 - [Tutorial](#tutorial)
