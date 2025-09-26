@@ -2,13 +2,15 @@
 Multi-task deep neural network for multi-modality single-cell sequencing data analysis
 ## Table of contents
 - [Network diagram](#diagram)
+- [Tutorial](#tutorial)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Citation](#Citation)
 - [Contact](#contact)
 
 ## <a name="diagram"></a>Network diagram
-
+## <a name="tutorial"></a>Tutorial
+The tutorial for scMultiNet is available at: https://scmultinet-tutorial.readthedocs.io/en/latest/
 ## <a name="Installation"></a>Installation
 **Environment requirements**:  
 scMultiNet requires Python 3.8.x and Pytorch.  
